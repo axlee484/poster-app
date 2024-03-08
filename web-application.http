@@ -1,0 +1,23 @@
+###
+GET http://localhost:1234/user/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InNpbmdoYXl1c2hAZ21haWwuY29tIiwicm9sZSI6IkFETUlOIiwiaWF0IjoxNzA3ODEzNDk5fQ.BCaoyJV78BEWd4VY1KnV9P4RYvTlzTFtYAL-vmlzlsY
+
+###
+POST  http://localhost:1234/signup
+Content-Type: application/json
+
+{
+    "firstName":"Ayush",
+    "lastName":"Singh",
+    "password":"ayush@1234",
+    "email":"singhayush@gmail.com"
+}
+###
+POST http://localhost:1234/login
+Content-Type: application/json
+
+{
+    "email":"singhayush@gmail.com",
+    "password":"ayush@1234"
+}
+POST 
